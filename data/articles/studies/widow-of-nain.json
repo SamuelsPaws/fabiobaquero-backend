@@ -1,0 +1,26 @@
+[
+    {
+        "type": "h2",
+        "props": {
+            "className": "text-2xl lg:text-5xl font-bold"
+        },
+        "children": {
+            "en": "Bible study: The Widow of Nain",
+            "es": "Estudio Bíblico: La Viuda de Naín"
+        }
+    },
+    {
+        "type": "VideoPlayer",
+        "props": {
+            "videoId": "qMVU2-Tg5v8"
+        },
+        "children": null
+    },
+    {
+        "type": "WatchYTBtn",
+        "props": {
+            "videoId": "qMVU2-Tg5v8"
+        },
+        "children": null
+    }
+]
