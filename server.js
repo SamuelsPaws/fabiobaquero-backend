@@ -16,6 +16,11 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api/articles', articleRoutes);
 app.use('/articles', express.static(path.join(__dirname, 'data', 'articles')));
 
+// Testing purposes
+app.get('/api/ping', (_, res) => {
+    res.status(200).send('pong');
+});
+
 // Start server
 app.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}`);
