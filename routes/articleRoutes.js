@@ -18,10 +18,4 @@ router.get('/:category/:slug/views', getArticleViews);
 // Fetch all data for one article
 router.get('/:category/:slug/db', getAllArticleData);
 
-// Testing purposes
-router.get('/ping', (_, res) => {
-    res.status(200).send('pong');
-});
-
-
 module.exports = router;
