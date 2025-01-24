@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { getArticleBySlug, getArticleViews, getAllArticleData, getTop5ViewedByCategory } = require('../controllers/articleController');
+const { getArticleBySlug, getArticleViews, getAllArticleData, getTop5ViewedByCategory, getAllArticlesByCategory } = require('../controllers/articleController');
 
 router.get('/', (req, res) => {
     res.json({ message: 'Articles API works!' });
@@ -17,5 +17,8 @@ router.get('/:category/:slug/views', getArticleViews);
 
 // Fetch all data for one article
 router.get('/:category/:slug/db', getAllArticleData);
+
+// Fetch all articles by category
+router.get('/:category/all', getAllArticlesByCategory);
 
 module.exports = router;
