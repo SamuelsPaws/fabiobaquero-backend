@@ -9,6 +9,9 @@ router.get('/', (req, res) => {
 // Fetch top 5 viewed articles by category
 router.get('/:category/top-5-viewed', getTop5ViewedByCategory);
 
+// Fetch all articles by category
+router.get('/:category/all', getAllArticlesByCategory);
+
 // Fetch a specific article by slug
 router.get('/:category/:slug', getArticleBySlug);
 
@@ -17,8 +20,5 @@ router.get('/:category/:slug/views', getArticleViews);
 
 // Fetch all data for one article
 router.get('/:category/:slug/db', getAllArticleData);
-
-// Fetch all articles by category
-router.get('/:category/all', getAllArticlesByCategory);
 
 module.exports = router;
