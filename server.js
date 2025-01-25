@@ -1,14 +1,14 @@
+require('dotenv').config();
 const express = require('express');
 const pg = require('pg');
 const cors = require('cors');
 const path = require('path');
-const dotenv = require('dotenv');
 const articleRoutes = require('./routes/articleRoutes');
 
 const app = express();
 const PORT = process.env.PORT || 5001;
 
-app.use(cors({ origin: 'https://fabiobaquero.netlify.app' }));
+app.use(cors({ origin: process.env.FRONTEND_URL }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 

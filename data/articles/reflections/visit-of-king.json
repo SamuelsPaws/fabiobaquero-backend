@@ -2,7 +2,7 @@
     {
         "type": "h2",
         "props": {
-            "className": "text-5xl"
+            "className": "text-2xl lg:text-5xl font-bold"
         },
         "children": {
             "en": "The Visit of the King",
@@ -11,14 +11,10 @@
         }
     },
     {
-        "type": "p",
+        "type": "AudioControls",
         "props": {
-            "className": "text-2xl"
+            "src": "/assets/visita/audio.m4a"
         },
-        "children": {
-            "en": "Sample text",
-            "es": "Texto de prueba",
-            "uk": "Sample text in Ukrainian"
-        }
+        "children": null
     }
 ]
