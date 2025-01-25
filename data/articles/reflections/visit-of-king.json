@@ -1,8 +1,8 @@
 [
     {
-        "type": "h2",
+        "type": "CoverTitle",
         "props": {
-            "className": "text-2xl lg:text-5xl font-bold"
+            "imgUrl": "/assets/studies-cover.webp"
         },
         "children": {
             "en": "The Visit of the King",
@@ -11,10 +11,60 @@
         }
     },
     {
-        "type": "AudioControls",
+        "type": "section",
         "props": {
-            "src": "/assets/visita/audio.m4a"
+            "style": { "height": "100%", "padding": "0 2rem 2rem", "display": "flex", "gap": "2rem" },
+            "className": "flex-col lg:flex-row"
         },
-        "children": null
+        "children": [
+            {
+                "type": "div",
+                "props": {
+                    "className": "w-full lg:w-[60%] flex flex-col justify-center gap-8"
+                },
+                "children": [
+                    {
+                        "type": "AudioControls",
+                        "props": {
+                            "src": "/assets/visita-audio.m4a"
+                        },
+                        "children": null
+                    },
+                    {
+                        "type": "ReflectCaption",
+                        "props": {},
+                        "children": {
+                            "en": "In ancient times, when a king decided to visit a place, it was customary for a messenger to first travel ahead to announce the visit of such a significant figure and ensure the location was prepared for the monarch's arrival. This is why John the Baptist declared, quoting Isaiah 40:3: 'A voice of one calling in the wilderness: Prepare the way for the Lord; make straight paths for Him.' He was announcing the arrival of the King of kings, as described in Revelation 1:5: 'Jesus Christ, the faithful witness, the firstborn from the dead, and the ruler of the kings of the earth. To Him who loves us and has freed us from our sins by His blood.' John the Baptist was proclaiming the arrival of the King who, wearing a crown of thorns, would come to save all who, through faith, receive Him as King and Lord.",
+                            "es": "En la antigüedad, cuando un rey decidía visitar un lugar, era costumbre que un emisario viajara primero para anunciar la visita de tan importante figura y asegurarse de que el lugar estuviera preparado para la llegada del monarca. Por eso Juan el Bautista declaró, citando Isaías 40:3: 'Voz de uno que clama en el desierto: Preparen el camino para el Señor; enderecen sus sendas.' Anunciaba la llegada del Rey de reyes, como se describe en Apocalipsis 1:5: 'Jesucristo, el testigo fiel, el primogénito de los muertos y el soberano de los reyes de la tierra. Al que nos ama y nos liberó de nuestros pecados con su sangre.' Juan el Bautista proclamaba la llegada del Rey que, con una corona de espinas, vendría a salvar a todo aquel que, por fe, lo reciba como Rey y Señor.",
+                            "uk": "У давнину, коли цар вирішував відвідати якесь місце, зазвичай спершу посилали посланця, щоб оголосити про візит такої важливої особи та переконатися, що місце готове до прибуття монарха. Саме тому Іван Хреститель казав, цитуючи Ісаї 40:3: 'Голос того, хто кличе в пустелі: Підготуйте дорогу для Господа, вирівняйте стежки для Нього.' Він проголошував прихід Царя царів, як це описано в Об’явленні 1:5: 'Ісуса Христа, вірного свідка, первістка з мертвих і Володаря царів земних. Тому, хто любить нас і звільнив нас від наших гріхів Своєю кров’ю.' Іван Хреститель проголошував прихід Царя, який, у терновому вінку, прийде, щоб спасти кожного, хто вірою прийме Його як Царя і Господа."
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "div",
+                "props": {
+                    "className": "flex-1 overflow-hidden relative flex justify-center items-center"
+                },
+                "children": [
+                    {
+                        "type": "div",
+                        "props": {
+                            "className": "absolute inset-0 bg-transparent bg-opacity-40 z-10"
+                        },
+                        "children": null
+                    },
+                    {
+                        "type": "img",
+                        "props": {
+                            "className": "w-full",
+                            "style": { "transform": "scale(1.2)" },
+                            "src": "/assets/studies-side-img.jpg"
+                        },
+                        "children": null
+                    }
+                ]
+            }
+        ]
     }
 ]
