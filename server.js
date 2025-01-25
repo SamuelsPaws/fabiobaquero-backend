@@ -16,6 +16,10 @@ app.use(cors({
 app.options('*', cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use((req, res, next) => {
+    console.log('Request Headers:', req.headers);
+    next();
+});
 
 // Routes
 app.use('/api/articles', articleRoutes);
@@ -24,10 +28,6 @@ app.use('/articles', express.static(path.join(__dirname, 'data', 'articles')));
 // Testing purposes
 app.get('/api/ping', (_, res) => {
     res.status(200).send('pong');
-});
-app.use((req, res, next) => {
-    console.log('Request Headers:', req.headers);
-    next();
 });
 
 // Start server
