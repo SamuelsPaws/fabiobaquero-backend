@@ -25,6 +25,10 @@ app.use('/articles', express.static(path.join(__dirname, 'data', 'articles')));
 app.get('/api/ping', (_, res) => {
     res.status(200).send('pong');
 });
+app.use((req, res, next) => {
+    console.log('Request Headers:', req.headers);
+    next();
+});
 
 // Start server
 app.listen(PORT, () => {
