@@ -1,0 +1,24 @@
+[
+    {
+        "type": "h2",
+        "props": {
+            "className": "text-5xl"
+        },
+        "children": {
+            "en": "The Visit of the King",
+            "es": "La Visita del Rey",
+            "uk": "Візит короля"
+        }
+    },
+    {
+        "type": "p",
+        "props": {
+            "className": "text-2xl"
+        },
+        "children": {
+            "en": "Sample text",
+            "es": "Texto de prueba",
+            "uk": "Sample text in Ukrainian"
+        }
+    }
+]
