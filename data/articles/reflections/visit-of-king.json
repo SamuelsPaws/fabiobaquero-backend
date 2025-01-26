@@ -2,7 +2,8 @@
     {
         "type": "CoverTitle",
         "props": {
-            "imgUrl": "/assets/studies-cover.webp"
+            "imgUrl": "/assets/visit-of-king-alt.webp",
+            "positionY": "30%"
         },
         "children": {
             "en": "The Visit of the King",
@@ -20,16 +21,9 @@
             {
                 "type": "div",
                 "props": {
-                    "className": "w-full lg:w-[60%] flex flex-col justify-center gap-8"
+                    "className": "w-full lg:w-[60%] flex flex-col justify-start gap-8"
                 },
                 "children": [
-                    {
-                        "type": "AudioControls",
-                        "props": {
-                            "src": "/assets/visita-audio.m4a"
-                        },
-                        "children": null
-                    },
                     {
                         "type": "ReflectCaption",
                         "props": {},
@@ -38,6 +32,13 @@
                             "es": "En la antigüedad, cuando un rey decidía visitar un lugar, era costumbre que un emisario viajara primero para anunciar la visita de tan importante figura y asegurarse de que el lugar estuviera preparado para la llegada del monarca. Por eso Juan el Bautista declaró, citando Isaías 40:3: 'Voz de uno que clama en el desierto: Preparen el camino para el Señor; enderecen sus sendas.' Anunciaba la llegada del Rey de reyes, como se describe en Apocalipsis 1:5: 'Jesucristo, el testigo fiel, el primogénito de los muertos y el soberano de los reyes de la tierra. Al que nos ama y nos liberó de nuestros pecados con su sangre.' Juan el Bautista proclamaba la llegada del Rey que, con una corona de espinas, vendría a salvar a todo aquel que, por fe, lo reciba como Rey y Señor.",
                             "uk": "У давнину, коли цар вирішував відвідати якесь місце, зазвичай спершу посилали посланця, щоб оголосити про візит такої важливої особи та переконатися, що місце готове до прибуття монарха. Саме тому Іван Хреститель казав, цитуючи Ісаї 40:3: 'Голос того, хто кличе в пустелі: Підготуйте дорогу для Господа, вирівняйте стежки для Нього.' Він проголошував прихід Царя царів, як це описано в Об’явленні 1:5: 'Ісуса Христа, вірного свідка, первістка з мертвих і Володаря царів земних. Тому, хто любить нас і звільнив нас від наших гріхів Своєю кров’ю.' Іван Хреститель проголошував прихід Царя, який, у терновому вінку, прийде, щоб спасти кожного, хто вірою прийме Його як Царя і Господа."
                         }
+                    },
+                    {
+                        "type": "AudioControls",
+                        "props": {
+                            "src": "/assets/visita-audio.m4a"
+                        },
+                        "children": null
                     }
                 ]
             },

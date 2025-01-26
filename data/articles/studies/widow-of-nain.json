@@ -1,8 +1,9 @@
 [
     {
-        "type": "h2",
+        "type": "CoverTitle",
         "props": {
-            "className": "text-2xl lg:text-5xl font-bold"
+            "imgUrl": "/assets/widow-of-nain.webp",
+            "positionY": "55%"
         },
         "children": {
             "en": "Bible study: The Widow of Nain",
@@ -11,17 +12,25 @@
         }
     },
     {
-        "type": "VideoPlayer",
+        "type": "section",
         "props": {
-            "videoId": "qMVU2-Tg5v8"
+            "className": "px-4 pb-4 flex flex-col gap-4"
         },
-        "children": null
-    },
-    {
-        "type": "WatchYTBtn",
-        "props": {
-            "videoId": "qMVU2-Tg5v8"
-        },
-        "children": null
+        "children": [
+            {
+                "type": "VideoPlayer",
+                "props": {
+                    "videoId": "qMVU2-Tg5v8"
+                },
+                "children": null
+            },
+            {
+                "type": "WatchYTBtn",
+                "props": {
+                    "videoId": "qMVU2-Tg5v8"
+                },
+                "children": null
+            }
+        ]
     }
 ]
