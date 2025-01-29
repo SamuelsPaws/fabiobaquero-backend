@@ -51,16 +51,20 @@
                     {
                         "type": "div",
                         "props": {
-                            "className": "absolute inset-0 bg-transparent bg-opacity-40 z-10"
+                            "className": "absolute inset-0 px-8 bg-black grid place-content-center bg-opacity-40 text-white text-3xl font-thin text-center z-10"
                         },
-                        "children": null
+                        "children": {
+                            "en": "\"A voice of one calling: 'In the wilderness prepare the way for the Lord; make straight in the desert a highway for our God.'\" - Isaiah 40:3",
+                            "es": "\"Una voz clama: 'En el desierto preparad camino a Jehová; enderezad calzada en la soledad a nuestro Dios.'\" - Isaías 40:3",
+                            "uk": "\"Голос того, хто кличе: 'У пустелі приготуйте шлях для Господа, вирівняйте в степу стежку для нашого Бога.'\" - Ісая 40:3"
+                        }
                     },
                     {
                         "type": "img",
                         "props": {
                             "className": "w-full",
                             "style": { "transform": "scale(1.2)" },
-                            "src": "/assets/studies-side-img.jpg"
+                            "src": "/assets/visit-of-king-side-img.jpeg"
                         },
                         "children": null
                     }

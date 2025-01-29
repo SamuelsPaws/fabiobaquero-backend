@@ -1,0 +1,36 @@
+[
+    {
+        "type": "CoverTitle",
+        "props": {
+            "imgUrl": "/assets/faith-of-centurion.webp",
+            "positionY": "20%"
+        },
+        "children": {
+            "en": "Bible study: The Faith of the Centurion",
+            "es": "Estudio Bíblico: La Fé del Centurión",
+            "uk": "Біблійні дослідження: Віра сотника"
+        }
+    },
+    {
+        "type": "section",
+        "props": {
+            "className": "px-4 pb-4 flex flex-col gap-4"
+        },
+        "children": [
+            {
+                "type": "VideoPlayer",
+                "props": {
+                    "videoId": "coDbHw7fOFg"
+                },
+                "children": null
+            },
+            {
+                "type": "WatchYTBtn",
+                "props": {
+                    "videoId": "coDbHw7fOFg"
+                },
+                "children": null
+            }
+        ]
+    }
+]
