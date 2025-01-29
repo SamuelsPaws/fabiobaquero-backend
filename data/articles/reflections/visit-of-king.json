@@ -51,7 +51,7 @@
                     {
                         "type": "div",
                         "props": {
-                            "className": "absolute inset-0 px-8 bg-black grid place-content-center bg-opacity-40 text-white text-3xl font-thin text-center z-10"
+                            "className": "absolute inset-0 px-8 bg-black grid place-content-center bg-opacity-40 text-white text-xl lg:text-3xl font-thin text-center z-10"
                         },
                         "children": {
                             "en": "\"A voice of one calling: 'In the wilderness prepare the way for the Lord; make straight in the desert a highway for our God.'\" - Isaiah 40:3",
