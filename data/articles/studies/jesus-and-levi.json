@@ -1,0 +1,36 @@
+[
+    {
+        "type": "CoverTitle",
+        "props": {
+            "imgUrl": "/assets/jesus-and-levi.webp",
+            "positionY": "20%"
+        },
+        "children": {
+            "en": "Bible study: Jesus and Levi - Luke 5",
+            "es": "Estudio Bíblico: Jesús y Leví - Lucas 5",
+            "uk": "Біблійні вивчення: Ісус і Левій - Луки 5"
+        }
+    },
+    {
+        "type": "section",
+        "props": {
+            "className": "px-4 pb-4 flex flex-col gap-4"
+        },
+        "children": [
+            {
+                "type": "VideoPlayer",
+                "props": {
+                    "videoId": "2CVSVimAwE4"
+                },
+                "children": null
+            },
+            {
+                "type": "WatchYTBtn",
+                "props": {
+                    "videoId": "2CVSVimAwE4"
+                },
+                "children": null
+            }
+        ]
+    }
+]
