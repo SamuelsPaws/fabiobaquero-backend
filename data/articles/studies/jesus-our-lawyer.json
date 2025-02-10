@@ -1,0 +1,36 @@
+[
+    {
+        "type": "CoverTitle",
+        "props": {
+            "imgUrl": "/assets/jesus-our-lawyer-study.webp",
+            "positionY": "20%"
+        },
+        "children": {
+            "en": "Jesus, Our Lawyer",
+            "es": "Jesús, Nuestro Abogado",
+            "uk": "Ісус, наш адвокат"
+        }
+    },
+    {
+        "type": "section",
+        "props": {
+            "className": "px-4 pb-4 flex flex-col gap-4"
+        },
+        "children": [
+            {
+                "type": "VideoPlayer",
+                "props": {
+                    "videoId": "samCW07-cxs"
+                },
+                "children": null
+            },
+            {
+                "type": "WatchYTBtn",
+                "props": {
+                    "videoId": "samCW07-cxs"
+                },
+                "children": null
+            }
+        ]
+    }
+]
