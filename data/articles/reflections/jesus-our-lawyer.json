@@ -1,0 +1,75 @@
+[
+    {
+        "type": "CoverTitle",
+        "props": {
+            "imgUrl": "/assets/jesus-our-lawyer.webp",
+            "positionY": "30%"
+        },
+        "children": {
+            "en": "Jesus, our lawyer",
+            "es": "Jesús, nuestro abogado",
+            "uk": "Ісус, наш адвокат"
+        }
+    },
+    {
+        "type": "section",
+        "props": {
+            "style": { "height": "100%", "padding": "0 2rem 2rem", "display": "flex", "gap": "2rem" },
+            "className": "flex-col lg:flex-row"
+        },
+        "children": [
+            {
+                "type": "div",
+                "props": {
+                    "className": "w-full lg:w-[60%] flex flex-col justify-start gap-8"
+                },
+                "children": [
+                    {
+                        "type": "AudioControls",
+                        "props": {
+                            "src": "/assets/jesus-our-lawyer.m4a"
+                        },
+                        "children": null
+                    },
+                    {
+                        "type": "ReflectCaption",
+                        "props": {},
+                        "children": {
+                            "en": "1 John 2:1 My dear children, I write these things to you so that you will not sin. But if anyone does sin, we have an advocate before the Father—Jesus Christ, the Righteous One. This verse reflects the challenge that the apostle John presents to believers: the call to a sincere effort to live without sin as children of God. This challenge is not just an exhortation but a fundamental reason to begin each day with the purpose of pleasing God, as a way of expressing our gratitude for His immense sacrifice in giving His only begotten Son for the salvation of all who believe in Him. However, the apostle, being aware of our fallen nature—as confirmed in Romans 3:23: “For all have sinned and fall short of the glory of God”—acknowledges that no matter how much we strive, we can never achieve divine righteousness on our own. That is why he points us to the only path of daily access to the Father’s presence: Jesus Christ, our Advocate, who intercedes for us at His right hand.",
+                            "es": "1 Juan 2:1 Mis queridos hijos, les escribo estas cosas para que no pequen. Pero si alguno peca, tenemos ante el Padre a un abogado: a Jesucristo, el Justo. Este versículo refleja el desafío que el apóstol Juan presenta a los creyentes: el llamado a un esfuerzo genuino por vivir sin pecado, como hijos de Dios. Este desafío no es solo una exhortación, sino una razón fundamental para comenzar cada día con el propósito de agradar a Dios, como una forma de expresar nuestra gratitud por Su inmenso sacrificio al entregar a Su Hijo unigénito para la salvación de todo aquel que en Él cree. Sin embargo, el apóstol, consciente de nuestra naturaleza caída —como lo confirma Romanos 3:23: &quot;Todos han pecado y están destituidos de la gloria de Dios&quot;—, reconoce que, por más que nos esforcemos, nunca podremos alcanzar por nosotros mismos la medida de la justicia divina. Por ello, nos señala el único camino de acceso diario a la presencia del Padre: Jesucristo, nuestro Abogado, quien intercede por nosotros a Su diestra.",
+                            "uk": "1 Івана 2:1 Мої дорогі діти, пишу вам це, щоб ви не грішили. Але якщо хто згрішить, маємо заступника перед Отцем — Ісуса Христа, Праведника. Цей вірш відображає виклик, який апостол Іван ставить перед віруючими: заклик до щирого прагнення жити без гріха, як Божі діти. Цей виклик — не просто настанова, а основна причина починати кожен день із наміром догоджати Богові, як спосіб виразити нашу вдячність за Його безмежну жертву, коли Він віддав Свого Єдинородного Сина заради спасіння кожного, хто в Нього вірує. Однак апостол, усвідомлюючи нашу падшу природу — як це підтверджує Римлянам 3:23: «Усі згрішили і позбавлені слави Божої» — визнає, що, як би ми не намагалися, власними силами ми ніколи не зможемо досягти Божої праведності. Тому він вказує нам на єдиний шлях до щоденного доступу в присутність Отця: Ісуса Христа, нашого Адвоката, який заступається за нас по правиці Бога."
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "div",
+                "props": {
+                    "className": "flex-1 overflow-hidden relative flex justify-center items-center"
+                },
+                "children": [
+                    {
+                        "type": "div",
+                        "props": {
+                            "className": "absolute inset-0 px-8 bg-black grid place-content-center bg-opacity-40 text-white text-xl lg:text-3xl font-thin text-center z-10"
+                        },
+                        "children": {
+                            "en": "Romans 8:34\nWho then is the one who condemns? No one. Christ Jesus who died—more than that, who was raised to life—is at the right hand of God and is also interceding for us.",
+                            "es": "Romanos 8:34\n¿Quién es el que condena? Cristo Jesús es el que murió, más aún, el que también resucitó, el que además está a la diestra de Dios, el que también intercede por nosotros.",
+                            "uk": "Римлянам 8:34\nХто той, що засуджує? Христос Ісус, Який умер, та, більше того, воскрес, Він і праворуч Бога, і Він заступається за нас."
+                        }
+                    },
+                    {
+                        "type": "img",
+                        "props": {
+                            "className": "w-full",
+                            "style": { "transform": "scale(1.2)" },
+                            "src": "/assets/visit-of-king-side-img.jpeg"
+                        },
+                        "children": null
+                    }
+                ]
+            }
+        ]
+    }
+]
