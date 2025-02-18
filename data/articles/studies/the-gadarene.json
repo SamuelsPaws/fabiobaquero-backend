@@ -1,0 +1,36 @@
+[
+    {
+        "type": "CoverTitle",
+        "props": {
+            "imgUrl": "/assets/the-gadarene.webp",
+            "positionY": "20%"
+        },
+        "children": {
+            "en": "The Gadarene",
+            "es": "El Gadareno",
+            "uk": "Гадарин"
+        }
+    },
+    {
+        "type": "section",
+        "props": {
+            "className": "px-4 pb-4 flex flex-col gap-4"
+        },
+        "children": [
+            {
+                "type": "VideoPlayer",
+                "props": {
+                    "videoId": "drnz5Qv_FEM"
+                },
+                "children": null
+            },
+            {
+                "type": "WatchYTBtn",
+                "props": {
+                    "videoId": "drnz5Qv_FEM"
+                },
+                "children": null
+            }
+        ]
+    }
+]
