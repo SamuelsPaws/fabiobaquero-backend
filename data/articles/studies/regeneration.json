@@ -1,0 +1,36 @@
+[
+    {
+        "type": "CoverTitle",
+        "props": {
+            "imgUrl": "/assets/regeneration.webp",
+            "positionY": "20%"
+        },
+        "children": {
+            "en": "The Regeneration",
+            "es": "La Regeneración",
+            "uk": "Регенерація"
+        }
+    },
+    {
+        "type": "section",
+        "props": {
+            "className": "px-4 pb-4 flex flex-col gap-4"
+        },
+        "children": [
+            {
+                "type": "VideoPlayer",
+                "props": {
+                    "videoId": "WFXfHcGiEcM"
+                },
+                "children": null
+            },
+            {
+                "type": "WatchYTBtn",
+                "props": {
+                    "videoId": "WFXfHcGiEcM"
+                },
+                "children": null
+            }
+        ]
+    }
+]
